@@ -1,0 +1,27 @@
+
+body{
+    background: rgba(56, 4, 40, 0.9);
+}
+
+.login_p{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-70%,-70%);
+    box-sizing: border-box;
+
+}
+
+.name{
+    display: block;
+    background-color:grey;
+}
+
+.login{
+    margin-top: 10px;
+}
+
+.label{
+    font-family: 'Ubuntu Mono';
+    color: whitesmoke;
+}

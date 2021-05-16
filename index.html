@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="c.js"></script>
+</head>
+
+<main id="container">
+  <div id="terminal">
+    <!-- Terminal Bar -->
+    <section id="terminal__bar">
+      <div id="terminal__bar__top">
+        <p id="bar__user">kalpshot@kali: ~</p>
+        <div id="bar__buttons">
+          <button class="bar__button">&#9472;</button>
+          <button class="bar__button">&#9723;</button>
+          <a href="desk.html"><button class="bar__button" id="bar__button--exit">&#10005;</button></a>
+
+        </div>
+
+      </div>
+      <div class="terminal__bar__bottom">
+        <ul>
+          <li>File</li>
+          <li>Actions</li>
+          <li>Edit</li>
+          <li>View</li>
+          <li>help</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Terminal Body -->
+    <section id="terminal__body">
+      <div id="terminal__prompt">
+        <span id="terminal__prompt--user">kalpshot@ubuntu:</span>
+        <span id="terminal__prompt--location">~</span>
+        <span id="terminal__prompt--bling">$</span>
+        <input type="text" class="command">
+        <span id="terminal__prompt--cursor"></span>
+      </div>
+    </section>
+  </div>
+</main>
+
+</html>
